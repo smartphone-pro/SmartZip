@@ -1,10 +1,10 @@
 import { WebPlugin } from '@capacitor/core';
 
-import type { SmartZipPlugin } from './definitions';
+import type { SmartZipPlugin, UnzipOptions } from './definitions';
 
 export class SmartZipWeb extends WebPlugin implements SmartZipPlugin {
-  async echo(options: { value: string }): Promise<{ value: string }> {
-    console.log('ECHO', options);
-    return options;
+  async unzip(options: UnzipOptions): Promise<{ result: boolean }> {
+    console.log('Unzip', options);
+    return { result: true };
   }
 }
