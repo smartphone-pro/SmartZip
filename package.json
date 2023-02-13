@@ -1,6 +1,6 @@
 {
   "name": "@smart-pro/smartzip",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Ionic Capacitor plugin for unzip a file.",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -11,7 +11,7 @@
     "android/build.gradle",
     "dist/",
     "ios/Plugin/",
-    "Smartzip.podspec"
+    "SmartProSmartzip.podspec"
   ],
   "author": "Smart Pro <smartphone_pro@hotmail.com>",
   "license": "MIT",
