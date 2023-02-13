@@ -1,11 +1,11 @@
-# smartzip
+# @smart-pro/smartzip
 
 Ionic Capacitor plugin for unzip a file.
 
 ## Install
 
 ```bash
-npm install smartzip
+npm install @smart-pro/smartzip
 npx cap sync
 ```
 

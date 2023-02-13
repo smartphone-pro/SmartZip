@@ -1,6 +1,6 @@
 {
   "name": "@smart-pro/smartzip",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Ionic Capacitor plugin for unzip a file.",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",

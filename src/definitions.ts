@@ -1,4 +1,6 @@
-export interface SmartZipPlugin {
+import { Plugin } from "@capacitor/core";
+
+export interface SmartZipPlugin extends Plugin {
   /**
    * Unzip a zipPath file to destFolder.
    * Event: "unzipProgress"
